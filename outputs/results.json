@@ -1,0 +1,16 @@
+{
+  "did": {
+    "estimand": "ATT",
+    "effect": -3.101052906760999,
+    "clustered_se": 0.2509209777789903,
+    "ci_low": -3.5928580232078198,
+    "ci_high": -2.609247790314178,
+    "p_value": 4.3725997345999227e-35,
+    "interpretation": "Average treated-region outcome change after the policy, net of region and month effects."
+  },
+  "parallel_trends": {
+    "differential_pretrend": 0.021507834248715996,
+    "p_value": 0.1488494254871486,
+    "passes_at_5pct": true
+  }
+}
